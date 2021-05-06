@@ -30,6 +30,7 @@ jobs:
         with:
           path: test
           ref: master
+          token: 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
           repository: rsamban/actionTestChild
 
       # Runs a single command using the runners shell
