@@ -33,7 +33,7 @@ jobs:
         with:
           path: test
           ref: master
-          token: ${{ secrets.CI_TOKEN }}
+          token: ${{ secrets.CI_TOKEN_1 }}
           repository: rsamban/actionTestChild
 
       # Runs a single command using the runners shell
